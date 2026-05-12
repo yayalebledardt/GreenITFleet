@@ -17,8 +17,8 @@ public class GreenITFleet {
     public static void main(String[] args) {
         Station maStation = new Station("Centre-Ville");
 
-        Velo v1 = new Velo("E-Ride 2000");
-        Velo v2 = new Velo("Volt-Bike");
+        Velo v1 = new Velo("E-Ride 2000", 200);
+        Velo v2 = new Velo("Volt-Bike", 200);
 
         maStation.ajouterVelo(v1);
         maStation.ajouterVelo(v2);
